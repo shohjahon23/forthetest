@@ -1,0 +1,58 @@
+.hero {
+  .container {
+    align-items: center;
+
+    .hero__left {
+      width: 60%;
+      .hero__subtitle {
+        font-size: 15px;
+        color: #0f0101;
+      }
+      .hero__title {
+        font-size: 57px;
+        font-family: $FredokaOne;
+        font-weight: 700;
+        color: #0f0101;
+        line-height: 65px;
+
+        span {
+          color: #d23166;
+        }
+      }
+      .hero__description {
+        font-family: $HindMadurai;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #555;
+        margin: 30px 0;
+      }
+    }
+    .hero__right {
+      width: 40%;
+      position: relative;
+
+      img {
+        width: 100%;
+        position: absolute;
+        // left: -30px;
+        bottom: -250px;
+      }
+      .hero_milk {
+        width: 100%;
+        // left: -130px;
+        bottom: -300px;
+      }
+      span {
+        width: 150px;
+        height: 20px;
+        background: #edb5c7;
+        opacity: 0.8;
+        filter: blur(16px);
+        position: absolute;
+        left: 130px;
+        bottom: -300px;
+      }
+    }
+  }
+}

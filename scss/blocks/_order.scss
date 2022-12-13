@@ -1,0 +1,55 @@
+.main{
+    .order{
+        background-color: #f2ceda;
+        .container{
+            @include flex();
+
+            .order__left{
+                width: 40%;
+
+                img{
+                    position: relative;
+                    top: 50px;
+                }
+            }
+            .order__right{
+                width: 60%;
+
+                h2{
+                    font-size: 40px;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 18px;
+                    line-height: 21px;
+                    letter-spacing: 1%;
+                    color: #555;
+                    margin: 20px 0;
+                }
+                .icons{
+                    @include flex();
+
+                    div{
+                        width: 30px;
+                        height: 30px;
+                        background-color: #fff;
+                        border-radius: 5px;
+                        @include flex();
+                            justify-content: center;
+
+                        img{
+                            width: 50%;
+                        }
+                    }
+                    p{
+                        margin-left: 20px;
+                    }
+                }
+                .apps{
+                    @include flex();
+                    margin-left: -12px;
+                }
+            }
+        }
+    }
+}

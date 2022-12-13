@@ -1,0 +1,8 @@
+$bgColor: 'F98AAB';
+$HindMadurai: 'Hind Madurai', sans-serif;
+$FredokaOne: 'Fredoka One', cursive;
+
+@mixin flex() {
+	display: flex;
+	align-items: center;
+}

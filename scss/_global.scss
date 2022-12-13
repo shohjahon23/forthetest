@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+button {
+	padding: 15px 50px;
+	font-weight: 700;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+
+	background-color: #D64374;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+}
+a {
+	font-size: 15px;
+	color: #150101;
+	text-decoration: none;
+}
